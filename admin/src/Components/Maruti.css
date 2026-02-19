@@ -1,0 +1,464 @@
+* {
+    div {
+        border: 2px solid black;
+    }
+}
+
+.main {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin-left: 10PX;
+}
+
+.t-l {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.t-t {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.t-b {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.t-r {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: none;
+}
+
+.trr {
+    height: 30px;
+    width: 30PX;
+}
+
+.middle {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10PX;
+    border-left: none;
+    border-right: none;
+}
+
+.m-l {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.m-l button {
+    height: 90%;
+    width: 90%;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+.m-m {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.m-m button {
+    height: 90%;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.m-r {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.m-r button {
+    height: 90%;
+    width: 90%;
+    border-radius: 50px;
+}
+
+.bottom {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-left: 10PX;
+
+}
+
+.b-t {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+
+}
+
+.bt-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, red, yellow);
+   -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
+
+.bt-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+     border: none;
+     justify-content: start;
+     
+}
+
+.bt22 {
+    height: 5px;
+    margin: 10px;
+    width: 80px;
+    border-radius: 10px;
+     background: linear-gradient(to right, red, yellow);
+
+}
+
+.b-b {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: none;
+
+}
+
+.b-l {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+
+}
+
+.bl-t {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+
+}
+
+.blt-1 {
+    display: flex;
+    border: none;
+    border-radius: 20PX;
+    margin: 5PX;
+
+}
+.p{
+    height: 100%;
+}
+.blt-2 {
+    flex: 1;
+    border: none;
+}
+
+.blt-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.blt3-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+
+}
+
+.blt3-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+ background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+color: white;
+}
+
+.blt3-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.blt3-2 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+}
+
+.blt-4 {
+    flex:  3;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: none;
+}
+
+.bl-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 20PX;
+}
+
+.blb-1 {
+    border: none;
+    border-radius: 10px;
+    margin: 5PX;
+}
+
+
+
+.blb-2 {
+    flex: 1;
+    border: none;
+}
+
+.blb-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.blb3-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.blb3-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+
+
+}
+
+.blb3-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.blb3-2 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    
+
+}
+
+.blb-4 {
+    flex: 1;
+    border: none;
+}
+
+.b-r {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: none;
+}
+
+.br-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 20PX;
+
+}
+
+.brt-1 {
+    border: none;
+    border-radius: 10PX;
+    margin: 5PX;
+}
+
+
+.brt-2 {
+    flex: 1;
+    border: none;
+}
+
+.brt-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.brt3-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.brt3-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+
+
+}
+
+.brt3-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.brt3-2 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    
+
+}
+
+.brt-4 {
+    flex: 1;
+    border: none;
+}
+
+.br-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 20PX;
+
+}
+
+.brb-1 {
+    border: none;
+    border-radius: 10PX;
+    margin: 5PX;
+}
+
+
+
+.brb-2 {
+    flex: 1;
+    border: none;
+}
+
+.brb-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.brb3-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.brb3-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    
+    
+}
+
+.brb3-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.brb3-2 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    
+}
+
+.brb-4 {
+    flex: 1;
+    border: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
