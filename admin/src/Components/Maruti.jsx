@@ -67,7 +67,7 @@ function Maruti() {
         </div>
         <div className='b-r'>
           <div className='br-t'>
-            <div className='brt-1'><img src={img3} alt="" /></div>
+            <div className='brt-1'><img src={img3} alt=""className='p2' /></div>
             <div className='brt-2'><b>James</b></div>
             <div className='brt-3'>
               <div className='brt3-1'>
@@ -80,7 +80,7 @@ function Maruti() {
             <div className='brt-4'>A Viking prince seeks revenge.</div>
           </div>
           <div className='br-b'>
-             <div className='brb-1'><img src={img5} alt="" /></div>
+             <div className='brb-1'><img src={img5} alt=""className='p3' /></div>
             <div className='brb-2'><b>ong bac</b></div>
             <div className='brb-3'>
               <div className='brb3-1'>
