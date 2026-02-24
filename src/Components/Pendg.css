@@ -1,0 +1,646 @@
+* {
+    div {
+        border: 0px solid;
+    }
+}
+
+.main {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.top {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.t-l {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.tl-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+.tl-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.t-r {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    border: none;
+}
+
+.p1 {
+    height: 25px;
+    width: 25px;
+}
+
+.middle {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.m-1 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.m-1 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.m-2 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.m-2 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.m-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: none;
+
+}
+
+.m-3 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+}
+
+.bottom {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+}
+
+.b-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+
+}
+
+.bt-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: start;
+
+
+
+}
+
+.bt-2 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+.bt22 {
+    height: 5px;
+    margin: 10px;
+    width: 80px;
+    border-radius: 10px;
+    background: linear-gradient(to right, red, yellow);
+
+}
+
+.sp {
+
+    background: linear-gradient(to right, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.b-b {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bb-l {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+}
+
+.bbl-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.bblt-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+.bbltt-1 {
+    margin: 10px;
+}
+
+.p2 {
+    border-radius: 10px;
+
+
+}
+
+.bblt-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bbltb-1 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbltb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.b2-1 {
+    flex: 1;
+    border: none;
+}
+
+.b2-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.b2-2 {
+    flex: 2;
+    border: none;
+}
+
+.b2-2 button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bbltb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbltb-4 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+}
+
+.blt-44 {
+    flex: 1;
+    display: flex;
+   
+}
+
+.blt-44 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     background-color: lightgreen;
+}
+
+.blt-55 {
+    flex: 1;
+    display: flex;
+}
+
+.blt-55 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     border: 1px solid red;
+    background-color: black;
+    color: red;
+}
+
+.bbl-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.bblb-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bblbt-1 {
+    margin: 10px;
+}
+
+.p3 {
+    border-radius: 10px;
+
+
+}
+
+.bblb-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bblbb-1 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bblbb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bb2-1 {
+    flex: 1;
+    border: none;
+}
+
+.bb2-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bb2-2 {
+    flex: 2;
+    border: none;
+}
+
+.bb2-2 button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bblbb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bblbb-4 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+     margin: 7px;
+
+}
+
+.bl44 {
+    flex: 1;
+    display: flex;
+
+}
+
+.bl44 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     background-color: lightgreen;
+}
+.bl55 {
+    flex: 1;
+    display: flex;
+    
+}
+
+.bl55 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     border: 1px solid red;
+    background-color: black;
+    color: red;
+}
+
+.bb-r {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+}
+
+.bbr-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.bbrt-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+.bbrtt-1 {
+    margin: 10px;
+}
+
+.q2 {
+    border-radius: 10px;
+
+
+}
+
+.bbrt-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bbrtb-1 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbrtb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bp2-1 {
+    flex: 1;
+    border: none;
+}
+
+.bp2-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bp2-2 {
+    flex: 2;
+    border: none;
+}
+
+.bp2-2 button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bbrtb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+.bbrtb-4{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+     margin: 7px;
+}
+.brt-44{
+    flex: 1;
+    display: flex;
+}
+.brt-44 button{
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     background-color: lightgreen;
+}
+.brt-55{
+    flex: 1;
+    display: flex;
+}
+.brt-55 button{
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     border: 1px solid red;
+    background-color: black;
+    color: red;
+}
+.bbr-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.bbrb-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bbrbt-1 {
+    margin: 10px;
+}
+
+.q3 {
+    border-radius: 10px;
+
+
+}
+
+.bbrb-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bbrbb-1 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbrbb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbp2-1 {
+    flex: 1;
+    border: none;
+}
+
+.bbp2-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bbp2-2 {
+    flex: 2;
+    border: none;
+}
+
+.bbp2-2 button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bbrbb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+.bbrbb-4{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+     margin: 7px;
+}
+.brb-44{
+    flex: 1;
+    display: flex;
+}
+.brb-44 button{
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+     background-color: lightgreen;
+}
+.brb-55{
+    flex: 1;
+    display: flex;
+}
+.brb-55 button{
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid red;
+    background-color: black;
+    color: red;
+}
+img {
+    height: 100%;
+    width: 100%;
+
+}

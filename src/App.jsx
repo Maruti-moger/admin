@@ -1,12 +1,18 @@
-
-import './App.css'
-import Maruti from './Components/Maruti/'
+// import Movies from './Components/Movies'
+// import Mart from './Components/Mart'
+import Pendg from './Components/Pendg'
 function App() {
  
 
   return (
     <>
-    <Maruti/>
+    <div className='app'>
+
+    </div>
+    <Pendg/>
+     {/* <Movies/>  */}
+      {/* <Mart/>  */}
+    {/* <Maruti/> */}
     </>
     
   )

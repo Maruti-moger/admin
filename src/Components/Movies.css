@@ -1,135 +1,129 @@
 * {
     div {
-        border: 0px solid black;
+        border: 0px solid;
     }
 }
 
 .main {
     max-width: 100%;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     border: none;
 }
 
 .top {
-    flex: 0.5;
+    flex: 1;
     display: flex;
     flex-direction: row;
     border: none;
-    margin-left: 10PX;
-
 }
 
 .t-l {
-    flex: 1;
+    flex: 3;
     display: flex;
     flex-direction: column;
     border: none;
 }
 
-.t-t {
+.tl-t {
     flex: 1;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     border: none;
 }
 
-.t-b {
+.tl-b {
     flex: 1;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     border: none;
 }
 
 .t-r {
     flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
     border: none;
 }
 
-.trr {
-    height: 30px;
-    width: 30PX;
+.p1 {
+    height: 25px;
+    width: 25px;
 }
 
 .middle {
     flex: 1;
     display: flex;
     flex-direction: row;
+    gap: 10px;
     flex-wrap: wrap;
-    gap: 10PX;
-    border-left: none;
-    border-right: none;
-    
 }
 
-.m-l {
-    flex: 1;
+.m-1 {
+    flex: 0.5;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: none;
-
 }
 
-.m-l button {
-    height: 90%;
-    width: 60%;
-    border-radius: 50px;
+.m-1 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
     background-color: red;
-    color: white;
-    border: 0px solid black;
+    color: white
 }
 
-.m-m {
-    flex: 1;
+.m-2 {
+    flex: 0.5;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-
-}
-
-.m-m button {
-    height: 90%;
-    width: 60%;
-    border-radius: 50px;
-    border: 0px;
-    margin-right: 70px;
-}
-
-.m-r {
-    flex: 1;
-    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: none;
 }
 
-.m-r button {
-    height: 90%;
-    width: 60%;
-    border-radius: 50px;
-    border: 0px;
-    margin-right: 100px;
+.m-2 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
+}
+
+.m-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: none;
+
+}
+
+.m-3 button {
+    height: 35px;
+    max-width: 100px;
+    border-radius: 20px;
+    border: none;
 }
 
 .bottom {
-    flex: 3;
+    flex: 6;
     display: flex;
     flex-direction: column;
     border: none;
-    margin-left: 10PX;
-    background-color:lightslategrey;
-    flex-wrap: wrap;
-
+    gap: 10px;
 }
 
 .b-t {
-    flex: 0.5;
+    flex: 1;
     display: flex;
     flex-direction: column;
     border: none;
@@ -139,22 +133,20 @@
 
 .bt-1 {
     flex: 1;
-    margin-top: 8px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, red, yellow);
-   -webkit-background-clip:text;
-    -webkit-text-fill-color: transparent;
     border: none;
+    align-items: start;
+   
+    
+
 }
 
 .bt-2 {
-    flex: 1;
     display: flex;
     flex-direction: column;
-     border: none;
-     justify-content: start;
-     
+    border: none;
+
 }
 
 .bt22 {
@@ -163,6 +155,13 @@
     width: 80px;
     border-radius: 10px;
     background: linear-gradient(to right, red, yellow);
+
+}
+.sp{
+
+    background: linear-gradient(to right, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 
@@ -170,336 +169,343 @@
     flex: 3;
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    border: none;
-
+    gap: 10px;
 }
 
-.b-l {
+.bb-l {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     border: none;
-    flex-wrap: wrap;
-
 }
 
-.bl-t {
-    flex:1;
+.bbl-t {
+    flex: 1;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    background-color: black;
+     background-color: black;
     color: white;
+}
+
+.bblt-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+
+.bbltt-1 {
+    margin: 25px;
+}
+
+.p2 {
+    border-radius: 10px;
+    
+}
+
+.bblt-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bbltb-1 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbltb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.b2-1 {
+    flex: 1;
+    border: none;
+}
+
+.b2-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.b2-2 {
+    flex: 2;
+    border: none;
+}
+
+.b2-2 button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bbltb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbl-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+     background-color: black;
+    color: white;
+}
+
+.bblb-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bblbt-1 {
+   margin: 25px;
+}
+
+.p3 {
+    border-radius: 10px;
+
+
+}
+
+.bblb-b {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.bblbb-1 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bblbb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bb2-1 {
+    flex: 1;
+    border: none;
+}
+
+.bb2-1 button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bb2-2 {
+    flex: 2;
+    border: none;
+}
+
+.bb2-2 button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    color: white;
+    border: none;
+}
+
+.bblbb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bb-r {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    padding: 10px;  
-
-
-}
-
-.blt-1 {
-    display: flex;
-    border: none;
-    border-radius: 20PX;
-    margin: 5PX;
-
-}
-.p{
-    border-radius: 10px;
-
-}
-.blt-2 {
-    flex: 1;
     border: none;
 }
 
-.blt-3 {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    border: none;
-}
-
-.blt3-1 {
-    flex: 1;
-    display: flex;
-    justify-content:start;
-    border: none;
-    
-}
-
-.blt3-1 button {
-    height: 30px;
-    width: 60px;
-    border-radius: 10px;
- background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
-color: white;
-}
-
-.blt3-2 {
-    flex: 1;
-    display: flex;
-    justify-content:start;
-    border: none;
-    margin-right: 90px;
-}
-
-.blt3-2 button {
-    height: 30px;
-    width: 60px;
-    border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
-    color: white;
-}
-
-.blt-4 {
-    flex:  3;
-    display: flex;
-    align-items: center;
-    border: none;
-}
-
-.bl-b {
+.bbr-t {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    border-radius: 20px;
+     background-color: black;
     color: white;
-    border-radius: 20PX;
-    gap: 10px;
-    padding: 10px;  
 }
 
-.blb-1 {
-    border: none;
-    border-radius: 10px;
-    margin: 5PX;
-}
-.p1{
-    border-radius: 10px;
-}
-
-
-.blb-2 {
-    flex: 1;
-    border: none;
-}
-
-.blb-3 {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    border: none;
-}
-
-.blb3-1 {
-    flex: 1;
-    display: flex;
-    justify-content: start;
-    border: none;
-}
-
-.blb3-1 button {
-    height: 30px;
-    width: 60px;
-    border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
-    color: white;
-
-
-
-}
-
-.blb3-2 {
-    flex: 1;
-    display: flex;
-    justify-content: start;
-    border: none;
-    margin-right: 90px;
-}
-
-.blb3-2 button {
-    height: 30px;
-    width: 60px;
-    border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
-    color: white;
-    
-
-}
-
-.blb-4 {
-    flex: 1;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-.b-r {
+.bbrt-t {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 15px;
     border: none;
-     flex-wrap: wrap;
 
 }
 
-.br-t {
+.bbrtt-1 {
+   margin: 25px;
+}
+
+.q2 {
+     border-radius: 10px;
+    
+    
+}
+
+.bbrt-b {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: black;
-    color: white;
-    border-radius: 20PX;
-      gap: 10px;
-      padding: 10px;  
-
-}
-
-.brt-1 {
-    border: none;
-    border-radius: 10PX;
-    margin: 5PX;
-}
-.p2{
-    border-radius: 10px;
-}
-
-.brt-2 {
-    flex: 1;
     border: none;
 }
 
-.brt-3 {
+.bbrtb-1 {
     flex: 1;
     display: flex;
-    flex-direction: row;
     border: none;
 }
 
-.brt3-1 {
+.bbrtb-2 {
     flex: 1;
     display: flex;
-    justify-content: start;
     border: none;
 }
 
-.brt3-1 button {
+.bp2-1 {
+    flex: 1;
+    border: none;
+}
+
+.bp2-1 button {
     height: 30px;
     width: 60px;
     border-radius: 10px;
     background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
     color: white;
-
-
-}
-
-.brt3-2 {
-    flex: 1;
-    display: flex;
-    justify-content: start;
     border: none;
-    margin-right: 90px;
 }
 
-.brt3-2 button {
-    height: 30px;
+.bp2-2 {
+    flex: 2;
+    border: none;
+}
+
+.bp2-2 button {
     width: 60px;
+    height: 30px;
     border-radius: 10px;
     background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
     color: white;
-    
-
-}
-
-.brt-4 {
-    flex: 1;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: start;
 }
 
-.br-b {
+.bbrtb-3 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbr-b {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    border-radius: 20px;
+     background-color: black;
     color: white;
-    border-radius: 20PX;
-      gap: 10px;
-    padding: 10px;  
-
 }
 
-.brb-1 {
+.bbrb-t {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     border: none;
-    border-radius: 10PX;
-    margin: 5PX;
 }
-.p3{
+
+.bbrbt-1 {
+    margin: 25px;
+}
+
+.q3 {
     border-radius: 10px;
+
+
 }
 
-
-.brb-2 {
-    flex: 1;
-    border: none;
-}
-
-.brb-3 {
+.bbrb-b {
     flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: none;
 }
 
-.brb3-1 {
+.bbrbb-1 {
     flex: 1;
     display: flex;
-    justify-content: start;
     border: none;
 }
 
-.brb3-1 button {
+.bbrbb-2 {
+    flex: 1;
+    display: flex;
+    border: none;
+}
+
+.bbp2-1 {
+    flex: 1;
+    border: none;
+}
+
+.bbp2-1 button {
     height: 30px;
     width: 60px;
     border-radius: 10px;
     background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
     color: white;
-    
-    
-}
-
-.brb3-2 {
-    flex: 1;
-    display: flex;
-    justify-content: start;
     border: none;
-    margin-right: 90px;
 }
 
-.brb3-2 button {
-    height: 30px;
+.bbp2-2 {
+    flex: 2;
+    border: none;
+}
+
+.bbp2-2 button {
     width: 60px;
+    height: 30px;
     border-radius: 10px;
     background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
     color: white;
-    
+    border: none;
 }
 
-.brb-4 {
+.bbrbb-3 {
     flex: 1;
-    border: none;
     display: flex;
-    align-items: center;
-    justify-content: start ;
+    border: none;
 }
 img{
-    height: 150px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }

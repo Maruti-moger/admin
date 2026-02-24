@@ -20,18 +20,18 @@ function Maruti() {
     </div>
     <div className='middle'>
       <div className='m-l'>
-        <button>All Movies</button>
+        <button>All Movies(10)</button>
       </div>
       <div className='m-m'>
-        <button>Pending</button>
+        <button>Pending(8)</button>
       </div>
       <div className='m-r'>
-        <button>Rejected</button>
+        <button>Rejected(2)</button>
       </div>
     </div>
     <div className='bottom'>
       <div className='b-t'>
-        <div className='bt-1'><h4>APPROVED MOVIES</h4></div>
+        <div className='bt-1'>APPROVED MOVIES</div>
         <div className='bt-2'> 
           <div className='bt22'></div>
         </div>
