@@ -17,19 +17,19 @@ function Pendg() {
                 <div className='top'>
                     <div className='t-l'>
                         <div className='tl-t'><b>Admin Dashboard</b></div>
-                        <div className='tl-b'></div>
+                        <div className='tl-b'>Welcome,Admin!</div>
                     </div>
                     <div className='t-r'><img src={img11} className='p1' /></div>
                 </div>
                 <div className='middle'>
                     <div className='m-1'>
-                        <button>All Movies(10)</button>
+                        <button>All Movies (10)</button>
                     </div>
                     <div className='m-2'>
-                        <button>Pending(8)</button>
+                        <button>Pending (8)</button>
                     </div>
                     <div className='m-3'>
-                        <button>Rejected(2)</button>
+                        <button>Rejected (2)</button>
                     </div>
                 </div>
                 <div className='bottom'>

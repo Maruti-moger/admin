@@ -1,4 +1,8 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
     div {
         border: 0px solid;
     }
@@ -6,17 +10,21 @@
 
 .main {
     max-width: 100%;
-    height: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     border: none;
 }
 
 .top {
-    flex: 1;
+    height: 50px;
     display: flex;
     flex-direction: row;
     border: none;
+    padding: 0 14px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .253);
 }
 
 .t-l {
@@ -24,6 +32,8 @@
     display: flex;
     flex-direction: column;
     border: none;
+    align-items: start;
+    justify-content: left;
 }
 
 .tl-t {
@@ -32,6 +42,7 @@
     flex-direction: column;
     justify-content: center;
     border: none;
+    font-size: 18px;
 }
 
 .tl-b {
@@ -61,6 +72,8 @@
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .253);
 }
 
 .m-1 {
@@ -74,11 +87,13 @@
 
 .m-1 button {
     height: 35px;
-    max-width: 100px;
+    width: 100px;
     border-radius: 20px;
-    border: 2px solid black;
-    background-color: red;
-    color: white
+    background-color: #dc2626;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
 }
 
 .m-2 {
@@ -92,9 +107,12 @@
 
 .m-2 button {
     height: 35px;
-    max-width: 100px;
+    width: 100px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+    color: #475569;
+    background: #f1f5f9;
 }
 
 .m-3 {
@@ -109,9 +127,12 @@
 
 .m-3 button {
     height: 35px;
-    max-width: 100px;
+    width: 100px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
+    color: #475569;
+    background: #f1f5f9;
 }
 
 .bottom {
@@ -120,6 +141,8 @@
     flex-direction: column;
     border: none;
     gap: 10px;
+    background-color: #f2f6fa;
+
 }
 
 .b-t {
@@ -127,6 +150,8 @@
     display: flex;
     flex-direction: column;
     border: none;
+    padding: 9px;
+    margin-bottom: -20px;
 
 
 }
@@ -137,8 +162,9 @@
     flex-direction: column;
     border: none;
     align-items: start;
-   
-    
+    font-size: 18px;
+    font-weight: 600;
+
 
 }
 
@@ -157,19 +183,24 @@
     background: linear-gradient(to right, red, yellow);
 
 }
-.sp{
+
+.sp {
 
     background: linear-gradient(to right, red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
 
 .b-b {
     flex: 3;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
+    border-radius: 15px;
+    padding: 12px;
+    box-shadow: 0 20px 12px rgba(0, 0, 0, .20);
+    min-width: none;
 }
 
 .bb-l {
@@ -185,7 +216,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-     background-color: black;
+    background-color: black;
     color: white;
 }
 
@@ -198,12 +229,12 @@
 }
 
 .bbltt-1 {
-    margin: 25px;
+    margin: 15px;
 }
 
 .p2 {
     border-radius: 10px;
-    
+
 }
 
 .bblt-b {
@@ -211,18 +242,24 @@
     display: flex;
     flex-direction: column;
     border: none;
+    padding: 10px;
+    gap: 10px;
 }
 
 .bbltb-1 {
     flex: 1;
     display: flex;
     border: none;
+     font-size: 15px;
+    font-weight: 600;
 }
 
 .bbltb-2 {
     flex: 1;
     display: flex;
     border: none;
+     gap: 10px;
+    margin-bottom: 14px;
 }
 
 .b2-1 {
@@ -234,9 +271,11 @@
     height: 30px;
     width: 60px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .b2-2 {
@@ -248,15 +287,19 @@
     width: 60px;
     height: 30px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+   background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .bbltb-3 {
     flex: 1;
     display: flex;
     border: none;
+     font-size: 13px;
+    color: #cbd5f5;
 }
 
 .bbl-b {
@@ -264,7 +307,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-     background-color: black;
+    background-color: black;
     color: white;
 }
 
@@ -276,7 +319,7 @@
 }
 
 .bblbt-1 {
-   margin: 25px;
+    margin: 15px;
 }
 
 .p3 {
@@ -290,18 +333,24 @@
     display: flex;
     flex-direction: column;
     border: none;
+     padding: 10px;
+    gap: 10px;
 }
 
 .bblbb-1 {
     flex: 1;
     display: flex;
     border: none;
+     font-size: 15px;
+    font-weight: 600;
 }
 
 .bblbb-2 {
     flex: 1;
     display: flex;
     border: none;
+     gap: 10px;
+    margin-bottom: 14px;
 }
 
 .bb2-1 {
@@ -313,11 +362,12 @@
     height: 30px;
     width: 60px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
-
 .bb2-2 {
     flex: 2;
     border: none;
@@ -327,15 +377,19 @@
     width: 60px;
     height: 30px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .bblbb-3 {
     flex: 1;
     display: flex;
     border: none;
+     font-size: 13px;
+    color: #cbd5f5;
 }
 
 .bb-r {
@@ -351,7 +405,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-     background-color: black;
+    background-color: black;
     color: white;
 }
 
@@ -364,13 +418,13 @@
 }
 
 .bbrtt-1 {
-   margin: 25px;
+    margin: 15px;
 }
 
 .q2 {
-     border-radius: 10px;
-    
-    
+    border-radius: 10px;
+
+
 }
 
 .bbrt-b {
@@ -378,18 +432,24 @@
     display: flex;
     flex-direction: column;
     border: none;
+     padding: 10px;
+    gap: 10px;
 }
 
 .bbrtb-1 {
     flex: 1;
     display: flex;
     border: none;
+       font-size: 15px;
+    font-weight: 600;
 }
 
 .bbrtb-2 {
     flex: 1;
     display: flex;
     border: none;
+     gap: 10px;
+    margin-bottom: 14px;
 }
 
 .bp2-1 {
@@ -401,9 +461,11 @@
     height: 30px;
     width: 60px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+   background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .bp2-2 {
@@ -415,15 +477,19 @@
     width: 60px;
     height: 30px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .bbrtb-3 {
     flex: 1;
     display: flex;
     border: none;
+     font-size: 13px;
+    color: #cbd5f5;
 }
 
 .bbr-b {
@@ -431,7 +497,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-     background-color: black;
+    background-color: black;
     color: white;
 }
 
@@ -443,7 +509,7 @@
 }
 
 .bbrbt-1 {
-    margin: 25px;
+    margin: 15px;
 }
 
 .q3 {
@@ -457,18 +523,24 @@
     display: flex;
     flex-direction: column;
     border: none;
+     padding: 10px;
+    gap: 10px;
 }
 
 .bbrbb-1 {
     flex: 1;
     display: flex;
     border: none;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .bbrbb-2 {
     flex: 1;
     display: flex;
     border: none;
+     gap: 10px;
+    margin-bottom: 14px;
 }
 
 .bbp2-1 {
@@ -480,9 +552,12 @@
     height: 30px;
     width: 60px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
+    
 }
 
 .bbp2-2 {
@@ -494,18 +569,23 @@
     width: 60px;
     height: 30px;
     border-radius: 10px;
-    background: linear-gradient(to right, rgb(72, 0, 255), rgb(169, 21, 171));
+    background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 .bbrbb-3 {
     flex: 1;
     display: flex;
     border: none;
+     font-size: 13px;
+    color: #cbd5f5;
 }
-img{
-    height: 100%;
+
+img {
+    height: 180px;
     width: 100%;
     object-fit: cover;
 }

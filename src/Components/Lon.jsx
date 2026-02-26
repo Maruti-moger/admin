@@ -1,8 +1,8 @@
-import './Mart.css'
-import img6 from '../assets/kaadu1.jpg'
+import './Lon.css'
+import img6 from '../assets/1920.jpg'
 import img7 from '../assets/star.png'
 import img8 from '../assets/left1.png'
-function Mart() {
+function Lon() {
  
 
   return (
@@ -10,7 +10,7 @@ function Mart() {
   <div className='main'>
     <div className='top'><img src={img6}alt=""className='l1' />
     <div className='t-1'><img src={img8} alt="" className='l2' /></div>
-    <div className='t-2'>Anathan kaadu</div>
+    <div className='t-2'>1920</div>
     <div className='t-3'>English .1h 40min</div>
     </div>
     <div className='middle'>
@@ -70,4 +70,4 @@ function Mart() {
     
   )
 }
-export default Mart
+export default Lon

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
     div {
         border: 0px solid;
     }
@@ -23,7 +24,7 @@
     padding: 0 14px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(0,0,0,.253);
+    border-bottom: 1px solid rgba(0, 0, 0, .253);
 }
 
 .t-l {
@@ -41,8 +42,7 @@
     flex-direction: column;
     justify-content: center;
     border: none;
-    font-size: 18px;    
-
+    font-size: 18px;
 }
 
 .tl-b {
@@ -73,7 +73,7 @@
     gap: 10px;
     flex-wrap: wrap;
     padding: 10px;
-     border-bottom: 1px solid rgba(0,0,0,.253);
+    border-bottom: 1px solid rgba(0, 0, 0, .253);
 }
 
 .m-1 {
@@ -91,9 +91,8 @@
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    color:  #475569;
+    color: #475569;
     background: #f1f5f9;
-
 }
 
 .m-2 {
@@ -110,10 +109,9 @@
     width: 100px;
     border-radius: 20px;
     border: none;
-    background-color:#dc2626;
-    color: white;
-     cursor: pointer;
-     font-weight: 600;
+    cursor: pointer;
+    color: #475569;
+    background: #f1f5f9;
 }
 
 .m-3 {
@@ -131,9 +129,10 @@
     width: 100px;
     border-radius: 20px;
     border: none;
-     cursor: pointer;
-     color:  #475569;
-     background: #f1f5f9;
+    background-color: #dc2626;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .bottom {
@@ -143,7 +142,6 @@
     border: none;
     gap: 10px;
     background-color: #f2f6fa;
-
 }
 
 .b-t {
@@ -151,8 +149,10 @@
     display: flex;
     flex-direction: column;
     border: none;
-    padding: 9px;
+     padding: 9px;
     margin-bottom: -20px;
+
+
 }
 
 .bt-1 {
@@ -161,9 +161,9 @@
     flex-direction: column;
     border: none;
     align-items: start;
-    font-size: 18px;
+     font-size: 18px;
     font-weight: 600;
-    
+
 
 
 }
@@ -195,12 +195,11 @@
 .b-b {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 10px;
     border-radius: 15px;
     padding: 12px;
     box-shadow: 0 20px 12px rgba(0, 0, 0, .20);
     min-width: none;
-
 }
 
 .bb-l {
@@ -235,7 +234,6 @@
 .p2 {
     border-radius: 10px;
 
-
 }
 
 .bblt-b {
@@ -243,7 +241,7 @@
     display: flex;
     flex-direction: column;
     border: none;
-    padding: 10px;
+     padding: 10px;
     gap: 10px;
 }
 
@@ -253,7 +251,6 @@
     border: none;
     font-size: 15px;
     font-weight: 600;
-
 }
 
 .bbltb-2 {
@@ -267,14 +264,13 @@
 .b2-1 {
     flex: 1;
     border: none;
-    
 }
 
 .b2-1 button {
     height: 30px;
     width: 60px;
     border-radius: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+     background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
     border: none;
     font-size: 11px;
@@ -284,7 +280,6 @@
 .b2-2 {
     flex: 2;
     border: none;
-   
 }
 
 .b2-2 button {
@@ -309,176 +304,24 @@
 .bbltb-4 {
     flex: 1;
     display: flex;
-    flex-direction: row;
-    margin: 7px;
-    gap: 3px;
-}
-
-.blt-44 {
-    flex: 1;
-    display: flex;
-   
-}
-
-.blt-44 button {
-    height: 35px;
-    width: 70px;
-    border-radius: 12px;
-    border: none;
-     background-color:#22C556;
-     font-size: 12px;
-    font-weight: 600;
-    
-}
-
-.blt-55 {
-    flex: 1;
-    display: flex;
-}
-
-.blt-55 button {
-    height: 35px;
-    width: 60px;
-    border-radius: 12px;
-    border: none;
-     border: 1px solid #ef4444;
-    background-color: black;
-    color: #ef4444;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.bbl-b {
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-}
-
-.bblb-t {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: none;
-}
-
-.bblbt-1 {
-    margin: 15px;
-}
-
-.p3 {
-    border-radius: 10px;
-
-
-}
-
-.bblb-b {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: none;
+    background-color: #0f172a;
+    border-radius: 8px;
     padding: 10px;
-    gap: 10px;
+    margin-top: 10px;
+    border-left: 4px solid #ef4444;
+    gap: 4px;
 }
 
-.bblbb-1 {
-    flex: 1;
-    display: flex;
-    border: none;
-    font-size: 15px;
-    font-weight: 600;
-
+.bbl-44 {
+    color: #fca5a5;
+    font-weight: bold;
+    font-size: o.9rem;
 }
 
-.bblbb-2 {
-    flex: 1;
-    display: flex;
-    border: none;
-    gap: 10px;
-    margin-bottom: 14px;
-}
+.bbl-5 {
+    color: #fca5a5;
 
-.bb2-1 {
-    flex: 1;
-    border: none;
-}
-
-.bb2-1 button {
-    height: 30px;
-    width: 60px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    border: none;
-    font-size: 11px;
-    font-weight: 600;
-}
-
-.bb2-2 {
-    flex: 2;
-    border: none;
-}
-
-.bb2-2 button {
-    width: 60px;
-    height: 30px;
-    border-radius: 10px;
- background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    border: none;
-    font-size: 11px;
-    font-weight: 600;
-}
-
-.bblbb-3 {
-    flex: 1;
-    display: flex;
-    border: none;
-    font-size: 13px;
-    color: #cbd5f5;
-}
-
-.bblbb-4 {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-     margin: 7px;
-
-}
-
-.bl44 {
-    flex: 1;
-    display: flex;
-
-}
-
-.bl44 button {
-    height: 35px;
-    width: 70px;
-    border-radius: 12px;
-    border: none;
-     background-color: #22C556;
-     font-size: 12px;
-    font-weight: 600;
-}
-.bl55 {
-    flex: 1;
-    display: flex;
-    
-}
-
-.bl55 button {
-    height: 35px;
-    width: 60px;
-    border-radius: 20px;
-    border: none;
-     border: 1px solid #ef4444;
-    background-color: black;
-    color: #ef4444;
-    font-size: 12px;
-    font-weight: 600;
 }
 
 .bb-r {
@@ -521,7 +364,7 @@
     display: flex;
     flex-direction: column;
     border: none;
-     padding: 10px;
+      padding: 10px;
     gap: 10px;
 }
 
@@ -529,7 +372,7 @@
     flex: 1;
     display: flex;
     border: none;
-      font-size: 15px;
+     font-size: 15px;
     font-weight: 600;
 }
 
@@ -580,168 +423,10 @@
     font-size: 13px;
     color: #cbd5f5;
 }
-.bbrtb-4{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-     margin: 7px;
-    gap: 3px;
-}
-.brt-44{
-    flex: 1;
-    display: flex;
-}
-.brt-44 button{
-    height: 35px;
-    width: 70px;
-    border-radius: 20px;
-    border: none;
-     background-color: #22C556;
-    font-size: 12px;
-    font-weight: 600;
-}
-.brt-55{
-    flex: 1;
-    display: flex;
-}
-.brt-55 button{
-    height: 35px;
-    width: 60px;
-    border-radius: 20px;
-    border: none;
-     border: 1px solid #ef4444;
-    background-color: black;
-    color:#ef4444;
-    font-size: 12px;
-    font-weight: 600;
-}
-.bbr-b {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
 
-}
 
-.bbrb-t {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: none;
-}
-
-.bbrbt-1 {
-    margin: 15px;
-}
-
-.q3 {
-    border-radius: 10px;
-
-}
-
-.bbrb-b {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: none;
-     padding: 10px;
-    gap: 10px;
-}
-
-.bbrbb-1 {
-    flex: 1;
-    display: flex;
-    border: none;
-     font-size: 15px;
-    font-weight: 600;
-}
-
-.bbrbb-2 {
-    flex: 1;
-    display: flex;
-    border: none;
-    gap: 10px;
-    margin-bottom: 14px;
-}
-
-.bbp2-1 {
-    flex: 1;
-    border: none;
-}
-
-.bbp2-1 button {
-    height: 30px;
-    width: 60px;
-    border-radius: 10px;
-   background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    border: none;
-    font-size: 11px;
-    font-weight: 600;
-}
-
-.bbp2-2 {
-    flex: 2;
-    border: none;
-}
-
-.bbp2-2 button {
-    width: 60px;
-    height: 30px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
-    border: none;
-    font-size: 11px;
-    font-weight: 600;
-}
-
-.bbrbb-3 {
-    flex: 1;
-    display: flex;
-    border: none;
-    font-size: 13px;
-    color: #cbd5f5;
-}
-.bbrbb-4{
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-     margin: 7px;
-}
-.brb-44{
-    flex: 1;
-    display: flex;
-}
-.brb-44 button{
-    height: 35px;
-    width: 70px;
-    border-radius: 12px;
-    border: none;
-     background-color: #22C556;
-      font-size: 12px;
-    font-weight: 600;
-}
-.brb-55{
-    flex: 1;
-    display: flex;
-}
-.brb-55 button{
-    height: 35px;
-    width: 60px;
-    border-radius: 20px;
-    border: none;
-    border: 1px solid #ef4444;
-    background-color: black;
-    color:#ef4444;
-     font-size: 12px;
-    font-weight: 600;
-
-}
 img {
     height: 160px;
     width: 100%;
-
+    object-fit: cover;
 }
